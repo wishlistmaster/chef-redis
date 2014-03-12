@@ -72,3 +72,9 @@ default['redis']['config']['list_max_ziplist_value'] = "64"
 
 default['redis']['config']['configure_set_max_intset_entries'] = false
 default['redis']['config']['set_max_intset_entries'] = "512"
+
+default['redis']['config']['hash_max_zipmap_entries'] = "512"
+default['redis']['config']['hash_max_zipmap_value'] = "64"
+
+default['redis']['config']['configure_slave_serve_stale_data'] = false
+default['redis']['config']['slave_serve_stale_data'] = "yes"
